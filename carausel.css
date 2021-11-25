@@ -1,0 +1,111 @@
+h1{
+    font-size: 3rem;
+    line-height: 2;
+    text-align: center;
+
+}
+main{
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+}
+.slide-container{
+max-width: 1000px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+
+}
+.arrow{
+ width: 2rem;
+ margin: 0 1rem;
+
+
+}
+section{
+    width: 100%;
+
+margin: 0 auto;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: nowrap;
+overflow-x: auto;
+-webkit-overflow-scrolling: touch;
+}
+
+section::-webkit-scrollbar{
+height: 5px;
+width: 2px;
+border: 1px solid #d5d5d5;
+
+}
+section::-webkit-scrollbar-track{
+
+--webkit-box-shadow: insert 0 0 6px rgba(0,0,0,..3);
+
+
+
+}
+section::-webkit-scrollbar-thumb{
+    
+ background-color: var(--color-primary);
+ outline: 1px solid #eee; 
+}
+section .thumbnail{
+     flex: 0 0 auto;
+     margin: 10px;
+     cursor: pointer;
+     border: 1px solid var(--black);
+     border-radius: 3px;
+     overflow: hidden;
+     transform: scale(.95);
+     transition:all.3s ;
+}
+section .thumbnail:hover{
+  transform: scale(1);
+
+}
+.metting-detail{
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: #fff;
+}
+
+.metting-detail h3 {
+
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.metting-detail p span {
+    font-size: .55rem;
+
+}
+
+.metting-detail a{
+     font-size: 1.4rem;
+     text-decoration: none;
+     background-color: rgb(255, 0, 140);
+     color: #fff;
+     border-radius:3px ;
+     padding: 7px 10px;
+     transition: all .3s ;
+}
+.metting-detail a:hover{
+background-color: rgb(68, 0, 255);
+
+
+
+}
+
+    
+   
+
+
+
+
+
+
+
+
+
